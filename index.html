@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Our Team</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Our Team</h1>
+      <p>Passionate professionals building digital excellence together.</p>
+      <a href="#team" class="cta-button">Meet the Team</a>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team-section">
+    <h2>Meet Our Team</h2>
+    <p class="team-intro">Our talented team brings together creativity, technical skill, and dedication to deliver outstanding digital solutions.</p>
+
+    <div class="team-grid">
+      <div class="team-card" data-member="1">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team Member 1">
+        <h3>Ali Raza</h3>
+        <p class="role">Frontend Developer</p>
+        <p class="bio">Ali creates beautiful user interfaces and ensures responsive design across all devices.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card" data-member="2">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Team Member 2">
+        <h3>Ayesha Khan</h3>
+        <p class="role">UI/UX Designer</p>
+        <p class="bio">Ayesha is passionate about designing intuitive and user-centered interfaces.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card" data-member="3">
+        <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Team Member 3">
+        <h3>Usman Tariq</h3>
+        <p class="role">Backend Developer</p>
+        <p class="bio">Usman handles server-side logic, APIs, and databases for scalable apps.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card"data-member="4">
+        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Team Member 4">
+        <h3>Sana Malik</h3>
+        <p class="role">Project Manager</p>
+        <p class="bio">Sana ensures projects run smoothly from planning to delivery with clear communication.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Team Portfolio. All rights reserved.</p>
+  </footer>
+  <!-- Modal Popup -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <img id="modalImg" src="" alt="Profile">
+    <h3 id="modalName">Name</h3>
+    <p id="modalRole">Role</p>
+    <p id="modalBio">Bio</p>
+    <div class="modalLinks" id="modalLinks"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
